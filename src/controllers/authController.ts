@@ -2,6 +2,9 @@ import { Request, Response } from "express";
 import User, { IUser } from "../models/userModel";
 import { Twilio } from "twilio";
 
+console.log("TWILIO_SID", process.env.TWILIO_SID);
+console.log("TWILIO_AUTH_TOKEN", process.env.TWILIO_AUTH_TOKEN);
+
 const client = new Twilio(
   process.env.TWILIO_SID as string,
   process.env.TWILIO_AUTH_TOKEN as string

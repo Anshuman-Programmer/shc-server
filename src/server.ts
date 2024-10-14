@@ -1,3 +1,7 @@
+import dotenv from "dotenv";
+
+dotenv.config();
+
 import app from "./index";
 
 // Define the port to run on, default to 5000 if not specified in the environment variables

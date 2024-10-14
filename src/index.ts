@@ -1,11 +1,9 @@
 import express, { Application, Request, Response, NextFunction } from "express";
-import dotenv from "dotenv";
 import connectDB from "./config/db";
 import authRoutes from "./routes/authRoutes";
 import cors from "cors";
 
 // Load environment variables from .env file
-dotenv.config();
 
 // Initialize the database connection
 connectDB();
