@@ -1,4 +1,4 @@
-Here's a streamlined README focusing on your specified steps:
+Here's an updated README with the additional environment variable:
 
 ---
 
@@ -16,11 +16,7 @@ Here's a streamlined README focusing on your specified steps:
    Create a `.env` file in the root directory with the following variables:
 
    ```plaintext
-   MONGO_URI=
-   JWT_SECRET=shu-project
-   TWILIO_SID=
-   TWILIO_AUTH_TOKEN=
-   PORT=5000
+   NEXT_PUBLIC_BACKEND=https://shc-server.onrender.com
    ```
 
 3. **Start the Development Server**
@@ -30,4 +26,4 @@ Here's a streamlined README focusing on your specified steps:
 
 ---
 
-That’s it! Your project should now be running locally on the specified port.
+Your project should now be running locally, configured with the specified environment variables.
