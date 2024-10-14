@@ -1,7 +1,3 @@
-Here's an updated README with the additional environment variable:
-
----
-
 # Project Setup
 
 ### Steps to Run Locally
@@ -16,14 +12,14 @@ Here's an updated README with the additional environment variable:
    Create a `.env` file in the root directory with the following variables:
 
    ```plaintext
-   NEXT_PUBLIC_BACKEND=https://shc-server.onrender.com
+   MONGO_URI=
+   JWT_SECRET=shu-project
+   TWILIO_SID=
+   TWILIO_AUTH_TOKEN=
+   PORT=5000
    ```
 
 3. **Start the Development Server**
    ```bash
    npm run dev
    ```
-
----
-
-Your project should now be running locally, configured with the specified environment variables.
